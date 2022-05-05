@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>MOTOMANIA</title>
+    <style type="text/css">
+        body{
+            background-color: #f6f5f3f4;
+        }
+
+    </style>
+  </head>
+  <body>
+  <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    <header class="container-fluid bg-danger d-flex justify-content-center">
+        <p class="text-light mb-0 p-4 fs-1">MOTOMANIA</p>
+    </header>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <span class="fs-5 text-primary fw-bold">MOTOMANIA</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blog">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">CONTACTOS</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+            </form>
+          </div>
+
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/trafico.png" class="d-block w-100" alt="">
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/max.png" class="d-block w-100" alt="...">
+          </div>
+ 
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/port.png" class="d-block w-100" alt="...">
+          </div>
+ 
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+        
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3"> BIENVENIDO A <span class="text-primary">MOTOMANIA<span/></h1>
+     <p class="p-3  fs-4">
+         <span class="text-primary">EN MOTOMANIA</span> puedes encontrar una gran selección de productos para ti y para tu moto, ya seas principiante o profesional. Te ofrecemos las mejores marcas del mercado a precios competitivos. Además, hemos desarrollado nuestras propias marcas siempre con la máxima calidad y a precios increíbles.     
+     </p>   
+    </section>
+
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/tipo.png" alt="tipos de motos"   width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">MOTOS</h3>
+                <p class="px-4">Contamos con una gran variedad de modelos </p>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/carrera.png" alt="carrera" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">MOTOS DE CARRERA</h3>
+                <p class="px-4">contamos con variedad de marca como KTM,HONDA,YAMAHA</p>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/repuestos.png" alt="repuestos width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">REPUESTOS</h3>
+                <p class="px-4">contamos con todo los repuestos para cada modelo de moto</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/ropa.png" alt="ropa width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">ROPA</h3>
+                <p class="px-4">Contamos con una gran variedad en poleras,guantes,botas,etc.</p>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<!--========================================================== -->
+                        <!-- SECCION ACERCA DE NOSOTROS-->
+<!--========================================================== -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#f00000" fill-opacity="0.78" d="M0,128L26.7,117.3C53.3,107,107,85,160,96C213.3,107,267,149,320,165.3C373.3,181,427,171,480,149.3C533.3,128,587,96,640,96C693.3,96,747,128,800,154.7C853.3,181,907,203,960,192C1013.3,181,1067,139,1120,117.3C1173.3,96,1227,96,1280,106.7C1333.3,117,1387,139,1413,149.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
+</svg>
+<section>
+    <div class="container w-50 m-auto text-center" id="Blog">
+        <h1 class="mb-5 fs-2"> TODO LO QUE DEBES SABER SOBRE <span class="text-danger">LAS MOTOS</span>.</h1>
+        <p class="fs-4 ">¿Tienes alguna duda sobre tu moto? ¿Quieres consejo sobre algún producto para ti o para tu moto? Todo esto y mucho más lo podrás resolver en alguno de los foros de moto. En MOTOMANIA no queremos que te pierdas nada sobre el mundo de las motos.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <img id="img-blog" class="img-fluid" src="./img/BLOG.png" alt="Blog">
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#f00000" fill-opacity="0.78" d="M0,128L26.7,117.3C53.3,107,107,85,160,96C213.3,107,267,149,320,165.3C373.3,181,427,171,480,149.3C533.3,128,587,96,640,96C693.3,96,747,128,800,154.7C853.3,181,907,203,960,192C1013.3,181,1067,139,1120,117.3C1173.3,96,1227,96,1280,106.7C1333.3,117,1387,139,1413,149.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
+    </svg>
+    <div id="local" class="border-top border-2">
+        <div class="mapa"> </div>
+        
+        <div>
+            <div class="wrapper-local">
+
+                <h2 class=" text-center text-danger">UBICADO EN COCHABAMBA - BOLIVIA</h2>
+                <h2 class="text-danger mb-4" id="typewriter "></h2>
+                <p class="fs-5 text-center ">Conoce nuestra red de concesionarios a nivel nacional y disfruta todos los beneficios que tenemos para ti: taller, seguros, ventas, repuestos.</p>
+                <section class="d-flex " id="numeros-local">
+                   <div class="text-center">
+                       <img src="./img/mapa.png" alt="" height="200px"  >
+                   </div>
+              </section>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--========================================================== -->
+                        <!-- SECCION CONTACTOS-->
+<!--========================================================== -->
+
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+  <div id="bg-contactos">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#f00000" fill-opacity="0.78" d="M0,128L26.7,117.3C53.3,107,107,85,160,96C213.3,107,267,149,320,165.3C373.3,181,427,171,480,149.3C533.3,128,587,96,640,96C693.3,96,747,128,800,154.7C853.3,181,907,203,960,192C1013.3,181,1067,139,1120,117.3C1173.3,96,1227,96,1280,106.7C1333.3,117,1387,139,1413,149.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
+    </svg>
+  </div>
+
+
+<!--========================================================== -->
+                      <!-- CONTENEDOR DEL FORMULARIO -->
+<!--========================================================== -->
+
+  <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactanos</h2>
+        <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+      </div>
+
+     
+
+      <form   method="POST" data-netlify="true" action="#">     
+            <div class= "mb-3">           
+              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+            </div>
+ 
+          
+            <div class="mb-3">            
+              <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+            </div>
+      
+
+            <div class="mb-3">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+            </div>
+
+          <div class="mb-3">       
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          </div>
+      </form>
+  
+  </div>
+</section>
+
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">MOTOMANIA &copy; Todos Los Derechos Reservados 2022</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook">Motomani@</i></a>
+      <a href="#"><i class="bi bi-twitter">Motom@nia</i></a>
+      <a href="#"><i class="bi bi-instagram">Moto_mani@</i></a>  
+  </div>
+</footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
